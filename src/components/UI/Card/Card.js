@@ -4,7 +4,7 @@ import styles from "./styles";
 
 const Card = (props) => {
   return (
-    <View style={styles.container} testID="card">
+    <View style={{...styles.container, ...props.style}} testID="card">
       {props.children}
     </View>
   );
