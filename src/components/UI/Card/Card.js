@@ -1,8 +1,13 @@
 import React from "react";
 import { View } from "react-native";
+import styles from "./styles";
 
 const Card = (props) => {
-  return <View testID="card">{props.children}</View>;
+  return (
+    <View style={styles.container} testID="card">
+      {props.children}
+    </View>
+  );
 };
 
 export default Card;
