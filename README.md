@@ -1,4 +1,5 @@
 #BUILD
+
 O App foi desenvolvido pelo boilerplate do Expo e apenas para a plataforma Android. Por isso, caso for executar 
 usando emulador, apenas execute o comando "npm android", caso tenha o app do expo instalado no seu celular, apenas inicie o projeto com "npm start"
 e leia o QR CODE.
